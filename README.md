@@ -20,10 +20,14 @@ Run this on your main Linux VPS with root access:
 ```bash
 git clone https://github.com/are35941-oss/Vps-deployer-bot.git
 cd Vps-deployer-bot
+cp test.env .env
+nano .env
 chmod +x install.sh
 sudo ./install.sh
 
+
 ⚙️ Manual Setup
+```bash
 1. Prerequisites
 Python 3.10+
 Docker Engine (for local container creation)
